@@ -1,7 +1,8 @@
-import React from "react"
-
-function Home() {
-  return <div>This is the home page.</div>
+export default function Home() {
+  return (
+    <div className="flex w-full h-full items-center justify-center flex-col text-center mt-5">
+      <h1>Welcome to Movie Explorer 🎬</h1>
+      <p>Browse trending movies from TMDb!</p>
+    </div>
+  )
 }
-
-export default Home
